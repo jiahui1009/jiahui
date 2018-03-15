@@ -19,5 +19,16 @@ if (pages.length > 1) {
      
 ```
 
+### setData 修改数组中的某一项的值
+
+```
+
+var price = 'goods['+index+'].price'
+this.setData({
+   [price]:'changed data'
+})
+    
+```
+
 
 
